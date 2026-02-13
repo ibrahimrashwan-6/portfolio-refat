@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refat Rashwan | Data Analyst Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #050505; color: #ffffff; }
+        .glass-panel { background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); }
+        .data-gradient { background: linear-gradient(90deg, #3b82f6, #2dd4bf); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    </style>
+</head>
+<body class="antialiased">
+
+    <nav class="fixed w-full z-50 border-b border-white/10 bg-black/50 backdrop-blur-md">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex justify-between items-center">
+            <span class="text-xl font-extrabold tracking-tighter uppercase">Refat<span class="text-blue-500">.</span></span>
+            <div class="hidden md:flex space-x-10 text-xs font-bold uppercase tracking-widest">
+                <a href="#about" class="hover:text-blue-500 transition">About</a>
+                <a href="#skills" class="hover:text-blue-500 transition">Skills</a>
+                <a href="#projects" class="hover:text-blue-500 transition">Projects</a>
+                <a href="#contact" class="bg-white text-black px-4 py-2 hover:bg-blue-600 hover:text-white transition">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-6xl mx-auto px-6">
+        
+        <section class="pt-40 pb-20 flex flex-col items-center text-center">
+            <div class="mb-8 relative">
+                <div class="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden border-2 border-blue-500 p-1">
+                    <img src="https://placehold.co/400x400/000/fff?text=Refat" alt="Refat Rashwan" class="rounded-full object-cover w-full h-full grayscale hover:grayscale-0 transition duration-500">
+                </div>
+            </div>
+            <h1 class="text-5xl md:text-8xl font-black tracking-tighter mb-4 uppercase">
+                Data <span class="data-gradient">Analyst</span>
+            </h1>
+            <p class="text-gray-400 text-lg md:text-xl max-w-2xl font-light">
+                [cite: 2, 4] Refat Rashwan. Turning raw data into smart business decisions through dynamic Power BI dashboards.
+            </p>
+        </section>
+
+        <section id="about" class="py-24 border-t border-white/10">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold mb-6">[cite: 3] Who is Refat?</h2>
+                    <p class="text-gray-400 leading-relaxed text-lg mb-6">
+                         I'm a Data Analyst with 1 year of hands-on experience, skilled in data cleaning, data modeling, and building dynamic Power BI dashboards.
+                    </p>
+                    <div class="flex gap-4">
+                        <div class="glass-panel p-4 rounded-lg flex-1">
+                            <span class="block text-2xl font-bold text-blue-500">1+</span>
+                            <span class="text-xs text-gray-500 uppercase">Year Experience</span>
+                        </div>
+                        <div class="glass-panel p-4 rounded-lg flex-1">
+                            <span class="block text-2xl font-bold text-teal-500">Projects</span>
+                            <span class="text-xs text-gray-500 uppercase">Completed</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-4" id="skills">
+                    <div class="glass-panel p-6 rounded-xl border border-white/5 text-center hover:border-blue-500 transition">
+                        <i class="fa-solid fa-database text-blue-500 mb-3 block"></i>
+                        <span class="text-sm font-bold">SQL</span>
+                    </div>
+                    <div class="glass-panel p-6 rounded-xl border border-white/5 text-center hover:border-blue-500 transition">
+                        <i class="fa-solid fa-chart-area text-blue-500 mb-3 block"></i>
+                        <span class="text-sm font-bold">Power BI</span>
+                    </div>
+                    <div class="glass-panel p-6 rounded-xl border border-white/5 text-center hover:border-blue-500 transition">
+                        <i class="fa-solid fa-table text-blue-500 mb-3 block"></i>
+                        <span class="text-sm font-bold">Excel</span>
+                    </div>
+                    <div class="glass-panel p-6 rounded-xl border border-white/5 text-center hover:border-blue-500 transition">
+                        <i class="fa-brands fa-python text-blue-500 mb-3 block"></i>
+                        <span class="text-sm font-bold">Python</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="py-24 border-t border-white/10">
+            <h2 class="text-sm uppercase tracking-[0.5em] text-blue-500 font-bold mb-12">[cite: 14] Featured Work</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <div class="glass-panel rounded-3xl overflow-hidden group">
+                    <div class="h-48 bg-zinc-900 flex items-center justify-center border-b border-white/5">
+                        <i class="fa-solid fa-chart-pie text-5xl text-blue-600/30 group-hover:scale-110 transition transition-transform"></i>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold mb-2">[cite: 42] Product Line Sales</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                            [cite: 42] Classic Cars lead sales, contributing nearly 40% of total revenue.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="glass-panel rounded-3xl overflow-hidden group">
+                    <div class="h-48 bg-zinc-900 flex items-center justify-center border-b border-white/5">
+                        <i class="fa-solid fa-chart-line text-5xl text-teal-600/30 group-hover:scale-110 transition transition-transform"></i>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold mb-2">[cite: 43] Quarterly Sales Trend</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                            [cite: 43] Sales peak in Q4, with 2004 showing the strongest overall performance.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="glass-panel rounded-3xl overflow-hidden group">
+                    <div class="h-48 bg-zinc-900 flex items-center justify-center border-b border-white/5">
+                        <i class="fa-solid fa-users-viewfinder text-5xl text-purple-600/30 group-hover:scale-110 transition transition-transform"></i>
+                    </div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-bold mb-2">[cite: 44] Top Customers</h3>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-4">
+                            [cite: 45] Highlighting the main contributors to sales revenue and customer loyalty.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="py-24 border-t border-white/10 mb-20">
+            <div class="glass-panel rounded-[3rem] p-12 md:p-20 text-center relative overflow-hidden">
+                <div class="relative z-10">
+                    <h2 class="text-4xl md:text-6xl font-black mb-6 uppercase leading-tight">[cite: 46] Let's Build <br>Something Great</h2>
+                    <p class="text-gray-400 mb-12 text-lg">[cite: 53] Ready to collaborate on data-driven solutions?</p>
+                    
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <a href="mailto:refatrashwan69@gmail.com" class="p-6 glass-panel rounded-2xl hover:bg-white hover:text-black transition group">
+                            <i class="fa-solid fa-envelope text-2xl mb-4 text-blue-500 group-hover:text-black"></i>
+                            <span class="block text-xs font-bold uppercase tracking-widest">[cite: 51] Email Me</span>
+                        </a>
+                        <a href="https://www.linkedin.com/i n/refat-rashwan-b9299a356/" target="_blank" class="p-6 glass-panel rounded-2xl hover:bg-white hover:text-black transition group">
+                            <i class="fa-brands fa-linkedin text-2xl mb-4 text-blue-500 group-hover:text-black"></i>
+                            <span class="block text-xs font-bold uppercase tracking-widest">[cite: 47] LinkedIn</span>
+                        </a>
+                        <div class="p-6 glass-panel rounded-2xl transition">
+                            <i class="fa-solid fa-phone text-2xl mb-4 text-teal-500"></i>
+                            <span class="block text-xs font-bold uppercase tracking-widest">[cite: 52] +201063607046</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="py-12 border-t border-white/5 text-center text-gray-600 text-[10px] font-bold uppercase tracking-[0.8em]">
+        Refat Rashwan &copy; 2026 | Data Analytics Portfolio
+    </footer>
+
+</body>
+</html>
